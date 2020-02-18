@@ -105,6 +105,9 @@ to be logged in into Grafana first to see graphs in Icinga Web 2.
 
  # specify role for unauthenticated users
  org_role = Viewer
+ 
+ [security]
+ allow_embedding = true
 ```
 
 ### Create Grafana datasource
